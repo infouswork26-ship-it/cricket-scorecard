@@ -81,7 +81,8 @@ async function loadScore() {
       "(" + match.overs + " ov)";
 
   } catch (e) {
-    document.getElementById("team").innerText = "Waiting for live match...";
+    document.getElementById("team").innerText = "LIVE SCORE WILL APPEAR HERE";
+
   }
 }
 
@@ -91,3 +92,4 @@ setInterval(loadScore, 5000);
 
 </body>
 </html>
+
